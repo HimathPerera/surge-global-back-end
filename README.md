@@ -14,7 +14,7 @@ Installation
 # Security vulnanrabilities
 ** I have used mongo-db as the data base and has exposed a user account in git-hub. It will be live for a small period of time and it was kept unattended only as a demo.
 
-#End-points
+# End-points
 user login : `http://localhost:5000/api/signIn`         || POST
 user Signup: `http://localhost:5000/api/signUp`         || POST
 Create Todo-Items: `http://localhost:5000/api/createTodo`           || POST || Auth Token(Bearer :Token)
